@@ -1,3 +1,4 @@
+
 h1 {
   text-align: center;
   /*border: 2px solid black;*/
@@ -15,12 +16,7 @@ h2 {
 h3 {
   color: #6666ff;
   text-align: center;
-
 }
-
-/*ul {
-  text-align: center;
-}*/
 
 .container {
   margin-bottom: 50px;
