@@ -11,33 +11,50 @@ h2 {
   color: #008000;
 }
 
+.container {
+  margin-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 15px;
+}
+
 .intro {
   padding: 100px;
   /*border: 2px solid #008000;*/
-  margin: 10px
+  margin: 10px;
+  /*margin-right: 50px;*/
+  /*margin-bottom: 50px;*/
+}
+
+.subtitle {
+  text-align: center;
 }
 
 .column {
-  width: 500px;
-  float: right;
+  width: 1000px;
+  float: left;
   background-color: #ccffdd;
+  /*margin-right: 50px;*/
 }
 
 .column_2 {
-  width: 500px;
-  float: right;
-  background-color: #ccccff;
+  width: 600px;
+  float: left;
+  /*background-color: #ccccff;*/
+  height: 450px;
+  margin-left: 50px;
 }
 
 .column_3 {
-  width: 500px;
-  float: left;
+  width: 600px;
+  float: right;
   /*border-style: groove;*/
-  background-color: #ccccff;
+  /*background-color: #ccccff;*/
+  margin-right: 50px;
 }
 
 img {
   float: left;
+  padding: 5px;
 }
 
 /*img.resize{
@@ -58,4 +75,5 @@ h3 {
 
 body {
   font-family:'Dosis', sans-serif;
+  background-color: #ccccff
 }
